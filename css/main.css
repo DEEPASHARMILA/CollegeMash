@@ -1,0 +1,156 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+body{
+	text-align:center;
+	font-family:Arial;
+	font-size:12px;
+	background-color:#cdcdcd;
+}
+header,nav,section,aside,footer{
+	display:block;
+}
+header{
+height: 55px;
+width: auto;
+background: #222222 url(../img/header_bg.png) repeat-x;
+}
+img{
+	border:none;
+}
+h2{/*Dark gray titles*/
+	font-family:Arial;
+	font-size:14px;
+	color:#404040;
+}
+h3{/*Form titles*/
+	margin-bottom:15px;
+	font-size:22px;
+	color:#202020;
+	/*text-shadow:1px 1px 1px #080808;*/
+}
+h4{
+	font-family:Arial;
+	font-size:14px;
+	font-weight:normal;
+	color:#606060;
+}
+h5{/*Login*/
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+}
+h6{/*Address and Shipping*/
+	text-align:center;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:normal;
+	color:#606060;
+}
+table{
+	width:100%;
+	text-align:center;
+}
+th{
+	color:#888888;
+	font-weight:normal;
+	text-decoration:underline;
+}
+td{
+	padding:3px 10px;
+}
+a:link{
+	color:#336699;
+	text-decoration:none;
+}
+a:visited{
+	color:#336699;
+	text-decoration:none;
+}
+a:hover{
+	color:#CC6600;
+	text-decoration:underline;
+}
+a:active{
+	color:#CC6600;
+	text-decoration:underline;
+}
+.dates{
+	color:#CC6600;
+	font-weight:bold;
+}
+.offers{/*Delete Or Change Later*/
+	color:#404040;
+	font-weight:bold;
+}
+.username{
+	color:#2e2e2e;
+	font-weight:900;
+	text-indent:3px
+}
+.subtitles{
+	color:#707070;
+}
+#wrapper{
+	width:1000px;
+	margin:0px auto 0px;
+	text-align:left;
+}
+#main_header{
+	/*Space with logo and top links*/
+	margin-bottom:5px;
+}
+#rightAlign{
+	float:right;
+	text-align:right;
+}
+#top_search{
+	margin-top:10px;
+	padding:5px 0px 5px 10px;
+	display:block;
+	border-radius:7px;/*Round corners*/
+	-moz-border-radius:7px;/*Firefox*/
+	-webkit-border-radius:7px;/*Chrome & Safari*/
+	background-color:#f6f6f6;
+}
+#main_aside{/*Side navigation - left - 220px wide total*/
+	width:208px;
+	margin-top:10px;
+	margin-right:10px;
+	border-width:1px;
+	float:left;
+}
+#main_section{/*Main area - right - 780px wide*/
+	width:780px;
+	margin-top:10px;
+	margin-bottom:20px;
+	float:left;
+}
+#main_footer{
+	padding-top:30px;
+	clear:both;/*No floating elements!*/
+	font-size:10px;
+}
+.searchBox{
+	padding:2px;
+	border:1px solid #B9BDC1;
+	color:#505050;
+}
+.button{
+	background-color:#222222;
+	border:1px solid #fff;
+	display:inline-block;
+	color:#FFFFFF;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:2px 10px;
+	text-decoration:none;
+	text-shadow:1px 1px 5px #303030;
+}.button:active{
+	position:relative;
+	top:1px;
+}

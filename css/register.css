@@ -1,0 +1,46 @@
+#left_side{
+	width:490px;
+	margin-top:10px;
+	margin-right:10px;
+	float:left;
+}
+#right_side{
+	margin-top:10px;
+	float:left;
+	width:500px;
+}
+.container{
+	width:460px;
+}
+.input{
+	width:325px;
+	float:left;
+}
+.field:hover .hint{
+	margin:-30px 0 0 450px;
+}
+.gender{
+	width:340px;
+	height:30px;
+	font-size:15px;
+	font-weight:bold;
+	color:black;
+	float:left;
+}
+.dates{
+	width:111px;
+	height:30px;
+	font-size:15px;
+	font-weight:bold;
+	color:black;
+}
+.login{
+	width:300px;
+	float:left;
+}
+h4{/*Registration Form Label*/
+	font-size:15px;
+	color:#202020;
+	text-align:right;
+	font-weight:bold;
+}
